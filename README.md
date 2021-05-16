@@ -13,6 +13,8 @@
 
 ### Helpful resources:
 
-Material Design - Getting Started:
+[GitLab Markdown Guide](https://docs.gitlab.com/ee/user/markdown.html#images)
 
-https://material.io/develop/web/getting-started
+[Google - Material Design - Getting Started](https://material.io/develop/web/getting-started)
+
+[Mustafa Kurtuldu - Getting started with Material Design Components for web](https://medium.com/dev-channel/getting-started-with-material-design-components-for-web-3cb30fbac7d8)
