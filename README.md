@@ -1,7 +1,5 @@
 # CSCI2691 Project
 
-## Gitlab repo for the CSCI2691 Project
-
 ### Members:
 
 - Zhizao Chen
@@ -10,3 +8,5 @@
 - Fattema Mahmoud-Ahmed
 - Akhila Nadigatla
 - Liam Osler
+
+![alt text](https://docs.gitlab.com/ee/user/img/markdown_logo.png)
