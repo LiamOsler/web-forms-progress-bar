@@ -1,4 +1,6 @@
-# CSCI2691 Project
+# CSCI2691 Project GitLab repository
+
+![alt text](https://docs.gitlab.com/ee/user/img/markdown_logo.png)
 
 ### Members:
 
@@ -8,5 +10,3 @@
 - Fattema Mahmoud-Ahmed
 - Akhila Nadigatla
 - Liam Osler
-
-![alt text](https://docs.gitlab.com/ee/user/img/markdown_logo.png)
