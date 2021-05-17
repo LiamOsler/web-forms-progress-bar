@@ -1,0 +1,16 @@
+header{
+    /* Typography */
+    color: white;
+
+    /* Shape */
+    display: block;
+    background-color: #009688;
+    
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+
+    /* Border Styles */
+    border-style: none none solid none;
+    border-color: #00695f;
+    border-width: 1ch;
+}

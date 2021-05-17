@@ -1,55 +1,61 @@
 /* Basic CSS Boilerplate for specifying custom styles */
-/* Body */
-	body{
-        font-family: "Roboto";
-    }
-	::selection, ::moz-selection{}
-	.wrapper{}
 
+/* Page */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body{
+    font-family: "Roboto";
+}
+::selection, ::moz-selection{}
+.wrapper{}
 
 /* Basic Elements */
-    div{}
-    p{}
-    blockquote{}
-    code{}
-    img{}
-    a{}
-    em{}
-    strong{}
-    pre{}
+  div{}
+  p{}
+  blockquote{}
+  code{}
+  img{}
+  a{}
+  em{}
+  strong{}
+  pre{}
 
 /* Headings */
-    h1{}
-    h2{}
-    h3{}
-    h4{}
-    h5{}
-    h6{}
+  h1{}
+  h2{}
+  h3{}
+  h4{}
+  h5{}
+  h6{}
 
 /* Input */
-    form{}
-    fieldset{}
-    legend{}
-    label{}
-    input{}
-    textarea{}
-    select{}
+  form{}
+  fieldset{}
+  legend{}
+  label{}
+  input{}
+  textarea{}
+  select{}
 
 /* Tables */
-    table{}
-    caption{}
-    tr{}
-    thead{}
-    th{}
-    tbody{}
-    td{}
-    tfoot{}
+  table{}
+  caption{}
+  tr{}
+  thead{}
+  th{}
+  tbody{}
+  td{}
+  tfoot{}
 
 /* Lists */
-    dl{}
-    dt{}
-    dd{}
-    ol{}
-    ol li{}
-    ul{}
-    ul li{}
+  dl{}
+  dt{}
+  dd{}
+  ol{}
+  ol li{}
+  ul{}
+  ul li{}
