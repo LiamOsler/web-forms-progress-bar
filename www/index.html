@@ -6,10 +6,7 @@
   <link rel="stylesheet" href="css/boilerplate.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
 
-  <!-- Material UI resources from CDNs-->
-  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
-  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-  
+
   <!-- Google Fonts/Icons:-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -34,14 +31,15 @@
     <section>
       <canvas id="loadingBar" width="200" height="100" style="border:1px solid #000000"></canvas>
 
-      <article>
+      <article class = "page-info">
         <form action="">
         <h1>Article 1</h1>
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>
         </form>
       </article>
 
-      <article>
+      <article class = "login-area">
+        <div class = "login-box" id = "login-1">
         <form action="">
           <h1>Existing user login</h1>
           <label for="email">Email Address:</label><br>
@@ -50,22 +48,26 @@
           <input type="password" id="password" name="password" value="password"><br><br>
           <input type="submit" value="SUBMIT"><br>
         </form><br>
-      </article>
+      </div>
 
-      <article>
+      <div class = "login-box" id = "login-2">
         <form action="">
           <h1>New account registration</h1>
           <label for="email-register">Email address:</label><br>
           <input type="email" id="email-register" name="email-register" value=""><br><br>
           <input type="submit" value="SEND VERIFICATION CODE">
         </form><br>
-        
+      </div>
+
+      <div class = "login-box" id = "login-3">
         <form action="">
           <label for="validation">Verification Code:</label><br>
           <input type="text" id="validation" name="validation" value=""><br><br>
           <input type="submit" value="VERIFY">
         </form><br>
+      </div>
 
+      <div class = "login-box" id = "login-4">
         <form action="">
           <label for="fname">First name:</label><br>
           <input type="text" id="fname" name="fname" value=""><br>
@@ -79,7 +81,9 @@
           <label for="account-type-alt">Alternative Account</label><br><br>
           <input type="submit" value="NEXT"><br>
         </form><br>
+      </div>
 
+      <div class = "login-box" id = "login-5">
         <form action="">
           <label for="username">Desired profile name:</label><br>
           <input type="text" id="username" name="username" value=""><br>
@@ -87,19 +91,24 @@
           <textarea type="text" id="biography" name="biography" value=""></textarea><br><br>
           <input type="submit" value="NEXT">
         </form><br>
+      </div>
 
+      <div class = "login-box" id = "login-6">
         <form action="">
           <input type="file" id="profile-picture" name="filename"><br><br>
           <input type="submit">
         </form><br>
+      </div>
 
+      <div class = "login-box" id = "login-7">
         <form action="">
           <label for="portfolio-item">Portfolio Item:</label><br>
           <input type="text" id="portfolio-item" name="portfolio-item" value=""><br>
           <label for="portfolio-description">Description:</label><br>
           <textarea type="text" id="portfolio-description" name="portfolio-description" value=""></textarea><br><br>
           <input type="submit" value="NEXT">
-        </form><br>        
+        </form><br>
+        </div>        
 
       </article>
     </section>
