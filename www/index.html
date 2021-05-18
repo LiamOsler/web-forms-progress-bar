@@ -6,7 +6,6 @@
   <link rel="stylesheet" href="css/boilerplate.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
 
-
   <!-- Material UI resources from CDNs-->
   <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
   <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
@@ -19,7 +18,7 @@
   
   <body>
     <header>
-      <h1>Development Page</h2>
+      <h1>CSCIX691 Development Website</h2>
     </header>
     
     <section>
@@ -35,6 +34,59 @@
         <h1>Article 1</h1>
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
       </article>
+
+      <article>
+        <h1>Existing user login</h1>
+        <form action="">
+          <label for="email">Email Address:</label><br>
+          <input type="email" id="email" name="email" value=""><br>
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" name="password" value="password"><br><br>
+          <input type="submit" value="Submit"><br>
+        </form><br>
+      </article>
+
+      <article>
+        <h1>New account registration</h1>
+        <form action="">
+          <label for="email-register">Email address:</label><br>
+          <input type="email" id="email-register" name="email-register" value=""><br><br>
+          <input type="submit" value="Send Verification Code">
+        </form><br>
+        
+        <form action="">
+          <label for="validation">Verification Code:</label><br>
+          <input type="text" id="validation" name="validation" value=""><br><br>
+          <input type="submit" value="Verify">
+        </form><br>
+
+        <form action="">
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value=""><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value=""><br>
+          <label for="fname">Phone number:</label><br>
+          <input type="text" id="phone" name="phone" value=""><br><br>
+          <input type="radio" id="account-type" name="account-type" value="Account Type: Normal">
+          <label for="account-type">Account Type: Normal</label><br>
+          <input type="radio" id="account-type-alt" name="account-type" value="Account Type: Alternative">
+          <label for="account-type-alt">Account Type: Alternative</label><br><br>
+          <input type="submit" value="Next"><br>
+        </form><br>
+
+        <form action="">
+          <label for="username">Desired username:</label><br>
+          <input type="text" id="username" name="username" value=""><br><br>
+          <input type="submit" value="Next">
+        </form><br>
+
+        <form action="">
+          <input type="file" id="myFile" name="filename">
+          <input type="submit">
+        </form>
+
+      </article>
+
     </section>
     
     <footer>
