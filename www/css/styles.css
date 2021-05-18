@@ -9,6 +9,32 @@ header{
     padding-top: 2vh;
     padding-bottom: 1vh;
 
+    width: 100%;
+
+    /* Border Styles */
+    border-style: solid none none none;
+    border-color: #00695f;
+    border-width: 1ch;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+
+    /* Positioning */
+    position: fixed;
+
+}
+
+
+footer{
+    /* Typography */
+    color: white;
+
+    /* Shape */
+    display: block;
+    background-color: #009688;
+    
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+
     /* Border Styles */
     border-style: none none solid none;
     border-color: #00695f;
