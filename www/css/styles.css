@@ -57,28 +57,41 @@ nav{
 /******************************************/
 /* Page Body and Content */
 section{
-    margin-top: 25vh;
+    margin-top: 20vh;
 }
 
 article{
+    display: inline-block;
 }
+
+
+.login-area{
+    position: absolute;
+    //background-color: pink;
+}
+
+.login-box{
+    width: 20em;
+    height: 20em;
+
+    margin: 1em;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.login-box:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
 /******************************************/
 
 
 /******************************************/
 /* Input forms */
 form{
-    height: 10em;
-    width: 20em;
-    padding: 5em;
-    margin: 1em;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    padding: 2em;
 }
 
-    form:hover{
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    }
 
 input{
     font-size:  1em;
@@ -135,11 +148,15 @@ footer{
     padding-top: 2vh;
     padding-bottom: 1vh;
 
+
+    margin-top: 100vh;
+
     /* Border Styles */
     border-style: none none solid none;
     border-color: #00695f;
     border-width: 1ch;
 
     position: relative;
+    top: 0;
 }
 /******************************************/
