@@ -14,11 +14,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  
+  <link rel="script" href = "js/boilerplate.js">
+  <link rel="script" href = "js/loadingbar.js">
   </head>
   
   <body>
     <header>
-      <a href="#home"><h1>CSCIX691 Development Website</h2></a>
+      <h1><a href="#home">CSCIX691 Development Website</a></h1>
       <nav>
         <ul>
           <li><a href="#">Link 1</a></li>
@@ -29,9 +32,13 @@
     </header>
     
     <section>
+      <canvas id="loadingBar" width="200" height="100" style="border:1px solid #000000"></canvas>
+
       <article>
+        <form action="">
         <h1>Article 1</h1>
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>
+        </form>
       </article>
 
       <article>
@@ -41,7 +48,7 @@
           <input type="email" id="email" name="email" value=""><br>
           <label for="password">Password:</label><br>
           <input type="password" id="password" name="password" value="password"><br><br>
-          <input type="submit" value="Submit"><br>
+          <input type="submit" value="SUBMIT"><br>
         </form><br>
       </article>
 
@@ -50,13 +57,13 @@
           <h1>New account registration</h1>
           <label for="email-register">Email address:</label><br>
           <input type="email" id="email-register" name="email-register" value=""><br><br>
-          <input type="submit" value="Send Verification Code">
+          <input type="submit" value="SEND VERIFICATION CODE">
         </form><br>
         
         <form action="">
           <label for="validation">Verification Code:</label><br>
           <input type="text" id="validation" name="validation" value=""><br><br>
-          <input type="submit" value="Verify">
+          <input type="submit" value="VERIFY">
         </form><br>
 
         <form action="">
@@ -70,7 +77,7 @@
           <label for="account-type">Normal Account</label><br>
           <input type="radio" id="account-type-alt" name="account-type" value="Account Type: Alternative">
           <label for="account-type-alt">Alternative Account</label><br><br>
-          <input type="submit" value="Next"><br>
+          <input type="submit" value="NEXT"><br>
         </form><br>
 
         <form action="">
@@ -78,7 +85,7 @@
           <input type="text" id="username" name="username" value=""><br>
           <label for="biography">Biography:</label><br>
           <textarea type="text" id="biography" name="biography" value=""></textarea><br><br>
-          <input type="submit" value="Next">
+          <input type="submit" value="NEXT">
         </form><br>
 
         <form action="">
@@ -91,7 +98,7 @@
           <input type="text" id="portfolio-item" name="portfolio-item" value=""><br>
           <label for="portfolio-description">Description:</label><br>
           <textarea type="text" id="portfolio-description" name="portfolio-description" value=""></textarea><br><br>
-          <input type="submit" value="Next">
+          <input type="submit" value="NEXT">
         </form><br>        
 
       </article>
@@ -102,5 +109,6 @@
     </footer>
 
   </body>
+
 
 </html>
