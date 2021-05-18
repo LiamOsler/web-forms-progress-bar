@@ -18,26 +18,25 @@
   
   <body>
     <header>
-      <h1>CSCIX691 Development Website</h2>
+      <a href="#home"><h1>CSCIX691 Development Website</h2></a>
+      <nav>
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </nav>
     </header>
     
     <section>
-      <nav>
-        <ul>
-          <li><a href="#">Link 2</a></li>
-          <li><a href="#">Link 2</a></li>
-          <li><a href="#">Link 2</a></li>
-        </ul>
-      </nav>
-      
       <article>
         <h1>Article 1</h1>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>
       </article>
 
       <article>
-        <h1>Existing user login</h1>
         <form action="">
+          <h1>Existing user login</h1>
           <label for="email">Email Address:</label><br>
           <input type="email" id="email" name="email" value=""><br>
           <label for="password">Password:</label><br>
@@ -47,8 +46,8 @@
       </article>
 
       <article>
-        <h1>New account registration</h1>
         <form action="">
+          <h1>New account registration</h1>
           <label for="email-register">Email address:</label><br>
           <input type="email" id="email-register" name="email-register" value=""><br><br>
           <input type="submit" value="Send Verification Code">
@@ -68,9 +67,9 @@
           <label for="fname">Phone number:</label><br>
           <input type="text" id="phone" name="phone" value=""><br><br>
           <input type="radio" id="account-type" name="account-type" value="Account Type: Normal">
-          <label for="account-type">Account Type: Normal</label><br>
+          <label for="account-type">Normal Account</label><br>
           <input type="radio" id="account-type-alt" name="account-type" value="Account Type: Alternative">
-          <label for="account-type-alt">Account Type: Alternative</label><br><br>
+          <label for="account-type-alt">Alternative Account</label><br><br>
           <input type="submit" value="Next"><br>
         </form><br>
 
@@ -88,7 +87,7 @@
         </form><br>
 
         <form action="">
-          <label for="portfolio-item">Portofolio Item:</label><br>
+          <label for="portfolio-item">Portfolio Item:</label><br>
           <input type="text" id="portfolio-item" name="portfolio-item" value=""><br>
           <label for="portfolio-description">Description:</label><br>
           <textarea type="text" id="portfolio-description" name="portfolio-description" value=""></textarea><br><br>
