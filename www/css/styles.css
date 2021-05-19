@@ -1,0 +1,232 @@
+/******************************************/
+/* Header and Nav */
+header{
+    z-index: 99;
+    color: white;
+    display: block;
+    background-color: #009688;
+    padding-top: 2vh;
+    width: 100%;
+    border-style: solid none none none;
+    border-color: #00695f;
+    border-width: 2ch;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    position: fixed;
+    top: 0;
+}
+
+    header h1 a{
+        color: white;
+        text-decoration: none;
+        font-size: 1.5em;
+        margin-left: .25em;
+    }
+
+/* Navbar styling */
+nav{
+    margin-top: 1em;
+    background-color: #f50057;
+}
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #f50057;
+    }
+    
+    nav li {
+        float: left;
+    }
+
+    nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 1em;
+        text-decoration: none;
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    }
+
+    nav li a:hover {
+        background-color: #ab003c;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+/******************************************/
+
+
+/******************************************/
+/* Page Body and Content */
+
+#content{
+    width: 100%;
+}
+
+section{
+    margin-top: 20vh;
+    display: flex;
+    padding-left: 1em;
+}
+
+article{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
+    margin: 1em;
+   
+}
+
+article:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.login-area{
+    float: right;
+    display: flex;
+    height: 20em;
+}
+
+.login-box{
+    width: 20em;
+    align-self: flex-end;
+}
+
+.login-progress{
+    display: inline-block;
+    width: 20em;
+    height: fit-content;
+}
+/******************************************/
+#login-1{
+    display: block;
+}
+
+#login-2{
+    display: none;
+}
+
+#login-3{
+    display: none;
+}
+
+#login-4{
+    display: none;
+}
+
+#login-5{
+    display: none;
+}
+
+#login-6{
+    display: none;
+}
+
+#login-7{
+    display: none;
+}
+
+#login-8{
+    display: none;
+}
+
+canvas{
+    width: 100%;
+    height: 50px;
+}
+
+/******************************************/
+/* Input forms */
+form{
+    padding: 2em;
+    margin-top: auto;
+}
+
+input{
+    font-size:  1em;
+    outline: 0;
+    border-width: 0 0 3px;
+    border-color: #f50057;
+    transition: border-color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    width: 100%;
+    margin-top: 1em;
+}
+
+    input:focus{
+        border-color: #00695f;
+    }
+
+    input[type=submit]{
+        font-size:  1em;
+        color: white;
+        background-color: #f50057;
+        padding: 1em;
+        border-radius: 0.25em;
+        border: none;
+        font-weight: bold;
+        -webkit-box-shadow: inset 0px 0px 10px -10px #f6f5f6; 
+        box-shadow: inset 0px 0px 10px -10px #f5ebee;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    }
+
+    input[type=submit]:hover{
+        background-color: #f73378;
+        color: rgb(255, 255, 255);
+        -webkit-box-shadow: inset 0px 0px 10px -10px #ab003c; 
+        box-shadow: inset 0px 0px 10px -10px #ab003c;
+    }
+
+    input[type=submit]:active{
+        background-color: #ab003c;
+        color: rgb(255, 255, 255);
+        -webkit-box-shadow: inset 0px 0px 10px -10px #ab003c; 
+        box-shadow: inset 0px 0px 10px -10px #ab003c;
+    }
+
+    input[type=radio]{
+        width: auto;
+    }
+
+    textarea{
+        margin-top: 1em;
+        height: 4em;
+        width: 100%;
+        resize: none;
+        border-color: #f50057;
+        border-width: 3px;
+        transition: border-color 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+    }
+
+    textarea:focus{
+        outline: none;
+        border-color: #00695f;
+    }
+
+/******************************************/
+
+
+/******************************************/
+/* Footer and footer content */
+footer{
+    /* Typography */
+    color: white;
+
+    /* Shape */
+    display: block;
+    background-color: #009688;
+    width: 100%;
+    
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+
+    /* Border Styles */
+    border-style: none none solid none;
+    border-color: #00695f;
+    border-width: 1ch;
+
+    position: absolute;
+    bottom: 0;
+}
+/******************************************/

@@ -1,0 +1,14 @@
+Create a website:
+- The client needs a step by step process to setup
+- They are going to have a screen with email/password
+- Next button in the corner to go to the next step of the process
+- System provides a verification code to the client
+- When the user gets to the next step, iterate the process bar
+- Nexts step: First name, Last name, phone number, type of account (1 or 2)
+- Next step: add photo
+- Next step: Name for profile, bio information
+- Next step: add some projects to the portfolio, a few screens for each
+- At end, progress bar should show user is ready
+
+Requirements:
+-HTML/CSS

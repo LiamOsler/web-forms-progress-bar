@@ -4,11 +4,8 @@
     <meta charset="UTF-8">
     <title>title</title>
   <link rel="stylesheet" href="css/boilerplate.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
 
-  <!-- Material UI resources from CDNs-->
-  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
-  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-  
   <!-- Google Fonts/Icons:-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -17,28 +14,125 @@
   
   <body>
     <header>
-      <h1>Development Page</h2>
-    </header>
-    
-    <section>
+      <h1><a href="#home">CSCIX691 Development Website</a></h1>
       <nav>
         <ul>
+          <li><a href="#">Link 1</a></li>
           <li><a href="#">Link 2</a></li>
-          <li><a href="#">Link 2</a></li>
-          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
         </ul>
       </nav>
-      
-      <article>
-        <h1>Article 1</h1>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    </header>
+    
+    <div id = "content">
+    <section>
+      <article class = "page-info">
+        <form action="">
+          <h1>Article 1</h1>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>
+          <br>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>
+          <br>
+          <p>"Morbi sed ipsum sed enim viverra viverra. Fusce pretium sem et nulla cursus maximus. Nulla fringilla tincidunt diam. Etiam pretium pretium justo id condimentum. Nullam tincidunt blandit quam. Quisque tristique, dolor vitae tristique finibus, turpis tortor consequat odio, a suscipit libero purus faucibus neque. Vivamus a euismod nibh. Sed sit amet scelerisque est, a aliquam erat. Sed nec ullamcorper tellus. Maecenas ultrices ante vitae mi finibus, a eleifend libero finibus. Ut commodo nibh velit, vel iaculis mauris gravida vel. Proin enim diam, tempus sed rutrum id, posuere a elit. Suspendisse potenti. Curabitur blandit, nisl vel iaculis consectetur, turpis libero faucibus diam, in viverra orci velit in elit."</p>
+          <br>
+          <p>"Morbi sed ipsum sed enim viverra viverra. Fusce pretium sem et nulla cursus maximus. Nulla fringilla tincidunt diam. Etiam pretium pretium justo id condimentum. Nullam tincidunt blandit quam. Quisque tristique, dolor vitae tristique finibus, turpis tortor consequat odio, a suscipit libero purus faucibus neque. Vivamus a euismod nibh. Sed sit amet scelerisque est, a aliquam erat. Sed nec ullamcorper tellus. Maecenas ultrices ante vitae mi finibus, a eleifend libero finibus. Ut commodo nibh velit, vel iaculis mauris gravida vel. Proin enim diam, tempus sed rutrum id, posuere a elit. Suspendisse potenti. Curabitur blandit, nisl vel iaculis consectetur, turpis libero faucibus diam, in viverra orci velit in elit."</p>
+        </form>
       </article>
+
+      <div class ="login-col">
+      <article class = "login-area">
+        <div class = "login-box" id = "login-1">
+        <form action="javascript:createAccount1()">
+          <h1>Existing User Login</h1>
+          <input type="email" id="email" name="email" value="" placeholder ="Email Address"><br>
+          <input type="password" id="password" name="password"  placeholder ="Password"><br><br>
+          <input type="submit" value="SUBMIT"><br>
+        </form><br>
+      </div>
+
+      <div class = "login-box" id = "login-2">
+        <form action="javascript:createAccount2()">
+          <h1>New Account Registration</h1>
+          <input type="email" id="email-register" name="email-register" value=""  placeholder ="Email Address"><br><br>
+          <input type="submit" value="SEND VERIFICATION CODE">
+        </form><br>
+      </div>
+
+      <div class = "login-box" id = "login-3">
+        <form action="javascript:createAccount3()">
+          <h1>Email Verification</h1>
+          <input type="text" id="validation" name="validation" value=""  placeholder ="Verification code"><br><br>
+          <input type="submit" value="VERIFY">
+        </form><br>
+      </div>
+
+      <div class = "login-box" id = "login-4">
+        <form action="javascript:createAccount4()">
+          <h1>Account Information</h1>
+          <input type="text" id="fname" name="fname" value="" placeholder ="First Name"><br>
+          <input type="text" id="lname" name="lname" value="" placeholder ="Last Name"><br>
+          <input type="text" id="phone" name="phone" value="" placeholder ="Phone Number"><br><br>
+          <input type="submit" value="NEXT"><br>
+        </form><br>
+      </div>
+
+      <div class = "login-box" id = "login-5">
+        <form action="javascript:createAccount5()">
+          <h1>Account Type</h1>
+          <input type="radio" id="account-type" name="account-type" value="Account Type: Normal">
+          <label for="account-type">Normal Account</label><br>
+          <input type="radio" id="account-type-alt" name="account-type" value="Account Type: Alternative">
+          <label for="account-type-alt">Alternative Account</label><br><br>
+          <input type="submit" value="NEXT"><br>
+        </form><br>
+      </div>
+
+      <div class = "login-box" id = "login-6">
+        <form action="javascript:createAccount6()">
+          <h1>Profile Infomation</h1>
+          <input type="text" id="username" name="username" value="" placeholder ="Desired Profile Name"><br>
+          <textarea type="text" id="biography" name="biography" value="" placeholder ="Biography"></textarea><br><br>
+          <input type="submit" value="NEXT">
+        </form><br>
+      </div>
+
+      <div class = "login-box" id = "login-7">
+        <form action="javascript:createAccount7()">
+          <h1>Profile picture</h1>
+          <input type="file" id="profile-picture" name="filename"><br><br>
+          <input type="submit" value ="SUBMIT">
+        </form><br>
+      </div>
+
+      <div class = "login-box" id = "login-8">
+        <form action="javascript:createAccount8()">
+          <h1>Portfolio</h1>
+          <input type="text" id="portfolio-item" name="portfolio-item" value="" placeholder ="Item Name"><br>
+          <textarea type="text" id="portfolio-description" name="portfolio-description" value="" placeholder ="Item Description"></textarea><br><br>
+          <input type="submit" value="NEXT">
+        </form><br>
+      </div>        
+      </article>
+      
+      <article class = "login-progress">
+        <h1>Registration Progress</h1>
+        <div>
+          <canvas  id="progressCanvas"></canvas>
+      </div>
+      </article>
+
+    </div>
+
+
     </section>
+  </div>
     
     <footer>
       <p>Footer</p>
     </footer>
 
   </body>
+  <script type="text/javascript" src="js/scripts.js"></script>
+
 
 </html>
