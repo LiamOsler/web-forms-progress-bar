@@ -15,7 +15,9 @@ body{
 
 /* Basic Elements */
   div{}
-  p{}
+  p{
+    text-align: justify;
+  }
   blockquote{}
   code{}
   img{}
