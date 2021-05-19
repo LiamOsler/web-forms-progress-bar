@@ -80,8 +80,6 @@ article:hover{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-.login-col{}
-
 .login-area{
     float: right;
     display: flex;
@@ -96,11 +94,45 @@ article:hover{
 .login-progress{
     display: inline-block;
     width: 20em;
+    height: fit-content;
+}
+/******************************************/
+#login-1{
+    display: block;
 }
 
+#login-2{
+    display: none;
+}
 
-/******************************************/
+#login-3{
+    display: none;
+}
 
+#login-4{
+    display: none;
+}
+
+#login-5{
+    display: none;
+}
+
+#login-6{
+    display: none;
+}
+
+#login-7{
+    display: none;
+}
+
+#login-8{
+    display: none;
+}
+
+canvas{
+    width: 100%;
+    height: 50px;
+}
 
 /******************************************/
 /* Input forms */
@@ -172,42 +204,7 @@ input{
         border-color: #00695f;
     }
 
-
 /******************************************/
-#login-1{
-    display: block;
-}
-
-#login-2{
-    display: none;
-}
-
-#login-3{
-    display: none;
-}
-
-#login-4{
-    display: none;
-}
-
-#login-5{
-    display: none;
-}
-
-#login-6{
-    display: none;
-}
-
-#login-7{
-    display: none;
-}
-
-#login-8{
-    display: none;
-}
-
-
-
 
 
 /******************************************/
@@ -231,6 +228,5 @@ footer{
 
     position: absolute;
     bottom: 0;
-
 }
 /******************************************/
