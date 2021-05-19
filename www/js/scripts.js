@@ -54,7 +54,16 @@ var c = document.getElementById('progressCanvas')
 var ctx = c.getContext("2d");
 
 ctx.fillStyle = "#f73378";
+var x = 0;
+setInterval(function(){ 
 
-ctx.beginPath();
-ctx.rect(0, 0, 50, 50);
-ctx.fill();
+
+    ctx.clearRect(0,0,200,200);
+    ctx.beginPath();
+
+
+    ctx.rect(0, 0, x, 50);
+    ctx.fill();
+    
+    x++;
+}, 25);
