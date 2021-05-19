@@ -80,19 +80,25 @@ article:hover{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+.login-col{}
+
 .login-area{
     float: right;
-    margin-right: 2em;
     display: flex;
     height: 20em;
-
-
 }
 
 .login-box{
     width: 20em;
     align-self: flex-end;
 }
+
+.login-progress{
+    display: inline-block;
+    width: 20em;
+}
+
+
 /******************************************/
 
 
